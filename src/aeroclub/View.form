@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,39,0,0,3,-22"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="Affichage">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="-97" width="-1" height="650"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="MembreDet">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab1">
+                <Property name="tabTitle" type="java.lang.String" value="tab1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="adl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="adt" min="-2" pref="200" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cpl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cpt" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="villel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="villet" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="cartfl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cartft" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="attestl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="attestt" min="-2" pref="123" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="vmt" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="vmvl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="vmvt" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sepl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sept" min="-2" pref="122" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="sepvl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="CloseMem" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sepvt" min="-2" pref="80" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="prenoml" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="prenomt" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="noml" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="nomt" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="badgel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="badget" min="-2" pref="77" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="profl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="proft" min="-2" pref="100" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="emaill" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="emailt" min="-2" pref="150" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tell" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="telt" min="-2" pref="115" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="vml" min="-2" max="-2" attributes="0"/>
+                                  <Component id="comml" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="211" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="prenoml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="prenomt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="noml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nomt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="badgel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="badget" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="profl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="proft" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="adl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="adt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="villel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="villet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emaill" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tell" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="telt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="comml" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vmt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vmvl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vmvt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sept" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepvl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepvt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cartfl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cartft" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attestl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attestt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="CloseMem" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="prenoml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prenom :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="prenomt">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="noml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nom :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nomt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="badgel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Badge :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="badget">
+            </Component>
+            <Component class="javax.swing.JLabel" name="adl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Adresse :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="adt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="cpl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cpt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="villel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ville :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="villet">
+            </Component>
+            <Component class="javax.swing.JLabel" name="emaill">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="tell">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tel :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="telt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="vml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date VM :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vmt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="vmvl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Validit&#xe9; VM :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vmvt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="sepl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date SEP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sept">
+            </Component>
+            <Component class="javax.swing.JLabel" name="sepvl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Validit&#xe9; SEP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sepvt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="cartfl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carte f&#xe9;d&#xe9;rale :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cartft">
+            </Component>
+            <Component class="javax.swing.JLabel" name="attestl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date attestation :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="attestt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="profl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Profession :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="proft">
+            </Component>
+            <Component class="javax.swing.JButton" name="CloseMem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quitter"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CloseMemActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="comml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Commentaire :"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="commt">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="SeqVolsDet">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab2">
+                <Property name="tabTitle" type="java.lang.String" value="tab2"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="292" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="seql" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="seqt" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="inl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="inT" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="meml" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="memt" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="avl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="aviont" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="datel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="datet" min="-2" pref="103" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempsl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempst" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="hfl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="hft" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="psl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="pst" min="-2" pref="82" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tauxl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tauxt" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="redsl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="redst" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="til" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tit" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="fit" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="motifl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jScrollPane1" min="-2" pref="503" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="41" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="601" max="-2" attributes="0"/>
+                              <Component id="QuitterSeq" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="264" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="seql" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seqt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="meml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="memt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="avl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aviont" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="datel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="datet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tempsl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tempst" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="hfl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hft" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="psl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pst" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tauxl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tauxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="redsl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="redst" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="motifl" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="til" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="QuitterSeq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="seql">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num Sequence :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="seqt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="inl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Instructeur :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inT">
+            </Component>
+            <Component class="javax.swing.JLabel" name="meml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Membre :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="memt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="avl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Avion :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aviont">
+            </Component>
+            <Component class="javax.swing.JLabel" name="datel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="datet">
+            </Component>
+            <Component class="javax.swing.JLabel" name="tempsl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Temps :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tempst">
+            </Component>
+            <Component class="javax.swing.JLabel" name="hfl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Heures Forfait :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="hft">
+            </Component>
+            <Component class="javax.swing.JLabel" name="psl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prix sp&#xe9;cial :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="pst">
+            </Component>
+            <Component class="javax.swing.JLabel" name="tauxl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taux :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tauxt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="redsl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R&#xe9;duc.Semaine :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="redst">
+            </Component>
+            <Component class="javax.swing.JLabel" name="motifl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Motif :"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="motift">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="til">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taux Instructeur :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="fil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Forfait initiation :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="fit">
+            </Component>
+            <Component class="javax.swing.JButton" name="QuitterSeq">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quiiter"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuitterSeqActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="AvionDet">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab3">
+                <Property name="tabTitle" type="java.lang.String" value="tab3"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="f1l" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="f2l" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="f2t" min="-2" pref="106" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="h2l" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="h1l" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="h1t" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="h2t" min="-2" pref="41" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="f3l" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="f3t" min="-2" pref="84" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="h3l" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="h3t" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="f1t" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="typel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="typet" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="numl" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="numt" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txl" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txt" min="-2" pref="124" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rdsl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="rdst" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="imml" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="immt" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="335" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="607" max="-2" attributes="0"/>
+                              <Component id="QuiiterAv" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="272" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="238" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="numl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="numt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="typel" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="typet" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="f1l" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="h1l" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="h1t" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="f1t" min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="f2l" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="f2t" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h2l" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h2t" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="f3l" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="f3t" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h3l" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h3t" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rdsl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdst" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="imml" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="immt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="QuiiterAv" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="numl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num&#xe9;ro Avion : "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="numt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="typel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Type :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="typet">
+            </Component>
+            <Component class="javax.swing.JLabel" name="txl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taux :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt">
+            </Component>
+            <Component class="javax.swing.JLabel" name="f1l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Forfait 1 :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="f1t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="h1l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Heures :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="h1t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="f2l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Forfait 2 :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="f2t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="h2l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Heures :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="h2t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="f3l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Forfait 3 :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="f3t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="h3l">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Heures :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="h3t">
+            </Component>
+            <Component class="javax.swing.JLabel" name="rdsl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R&#xe9;duction semaine :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rdst">
+            </Component>
+            <Component class="javax.swing.JLabel" name="imml">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Immatriculation :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="immt">
+            </Component>
+            <Component class="javax.swing.JButton" name="QuiiterAv">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quitter"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuiiterAvActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="InstructeurDet">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab1">
+                <Property name="tabTitle" type="java.lang.String" value="tab1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="pplal" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="pplait" min="-2" pref="97" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="npplail" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="npplait" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bbil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bbit" min="-2" pref="91" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="nbbil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="nbbit" min="-2" pref="171" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="QuiiterInstru" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="prenomil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="prenomit" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="nomil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="nomit" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="badgeil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="badgeit" min="-2" pref="77" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="cartfil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cartfit" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="attestil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="attestit" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="vmil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="vmit" min="-2" pref="100" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="vmvil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="vmvit" min="-2" pref="80" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="sepil" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="adil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="adit" min="-2" pref="200" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cpil" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="cpit" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="villeil" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="villeit" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="sepit" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sepvil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sepvit" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="tiil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tiit" min="-2" pref="105" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="faxil" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="faxit" min="-2" pref="55" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="283" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="emailil" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="emailit" min="-2" pref="150" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="telil" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="telit" min="-2" pref="115" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="commil" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="211" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="prenomil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="prenomit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nomil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nomit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="badgeil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="badgeit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="adil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="adit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="villeil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="villeit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emailil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="telil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="telit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="79" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="commil" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vmil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vmit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vmvil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vmvit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepvil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sepvit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cartfil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cartfit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attestil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attestit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tiil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tiit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="faxil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="faxit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bbil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bbit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nbbil" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nbbit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pplal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pplait" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="npplail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="npplait" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="QuiiterInstru" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="prenomil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prenom :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="prenomit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nomil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nom :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nomit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="badgeil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Badge :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="badgeit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="adil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Adresse :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="adit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="cpil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cpit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="villeil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ville :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="villeit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="telil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tel :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="telit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="vmil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date VM :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vmit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="vmvil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Validit&#xe9; VM :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vmvit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="sepil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date SEP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sepit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="sepvil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Validit&#xe9; SEP :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sepvit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="cartfil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Carte f&#xe9;d&#xe9;rale :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cartfit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="attestil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date attestation :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="attestit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="tiil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taux de l&apos;instructeur :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tiit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="faxil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fax :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="faxit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="bbil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date BB :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="bbit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nbbil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num&#xe9;ro BB :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nbbit">
+            </Component>
+            <Component class="javax.swing.JLabel" name="pplal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date PPLA :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="pplait">
+            </Component>
+            <Component class="javax.swing.JLabel" name="npplail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num&#xe9;ro PPLA :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="npplait">
+            </Component>
+            <Component class="javax.swing.JButton" name="QuiiterInstru">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quiiter"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuiiterInstruActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="commit">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="commil">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Commentaire :"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
