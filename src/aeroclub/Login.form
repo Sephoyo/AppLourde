@@ -66,7 +66,7 @@
               <Component id="LOGO" alignment="0" pref="480" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="login" pref="474" max="32767" attributes="0"/>
+                  <Component id="login" pref="468" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -131,15 +131,11 @@
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
                       <Component id="conne" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="129" max="32767" attributes="0"/>
+                      <EmptySpace pref="125" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="btnlogin" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -151,6 +147,13 @@
                                   <Component id="txtemail" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnlogin" max="32767" attributes="0"/>
+                                  <Component id="Inscrire" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -173,6 +176,8 @@
                       <Component id="pass" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Component id="btnlogin" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Inscrire" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -239,7 +244,7 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Se connecter"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Default Cursor"/>
+                  <Color id="Curseur par d&#xe9;faut"/>
                 </Property>
               </Properties>
               <Events>
@@ -267,6 +272,14 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Mot de passe :"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Inscrire">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S&apos;inscire"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InscrireActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

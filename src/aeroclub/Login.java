@@ -5,6 +5,7 @@
 package aeroclub;
 
 import SQL.Admin;
+import SQL.Membres;
 import com.formdev.flatlaf.FlatDarkLaf;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -47,6 +48,7 @@ public class Login extends javax.swing.JFrame {
         btnlogin = new javax.swing.JButton();
         txtemail = new javax.swing.JLabel();
         txtmdp = new javax.swing.JLabel();
+        Inscrire = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Login");
@@ -126,6 +128,13 @@ public class Login extends javax.swing.JFrame {
         txtmdp.setForeground(new java.awt.Color(0, 0, 0));
         txtmdp.setText("Mot de passe :");
 
+        Inscrire.setText("S'inscire");
+        Inscrire.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                InscrireActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout loginLayout = new javax.swing.GroupLayout(login);
         login.setLayout(loginLayout);
         loginLayout.setHorizontalGroup(
@@ -133,13 +142,10 @@ public class Login extends javax.swing.JFrame {
             .addGroup(loginLayout.createSequentialGroup()
                 .addGap(135, 135, 135)
                 .addComponent(conne)
-                .addContainerGap(129, Short.MAX_VALUE))
+                .addContainerGap(125, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginLayout.createSequentialGroup()
-                        .addComponent(btnlogin)
-                        .addGap(143, 143, 143))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginLayout.createSequentialGroup()
                         .addGroup(loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -148,7 +154,12 @@ public class Login extends javax.swing.JFrame {
                                 .addComponent(pass))
                             .addComponent(txtmdp)
                             .addComponent(txtemail))
-                        .addGap(99, 99, 99))))
+                        .addGap(99, 99, 99))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, loginLayout.createSequentialGroup()
+                        .addGroup(loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnlogin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Inscrire, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(143, 143, 143))))
         );
         loginLayout.setVerticalGroup(
             loginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -167,6 +178,8 @@ public class Login extends javax.swing.JFrame {
                 .addComponent(pass, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27)
                 .addComponent(btnlogin)
+                .addGap(18, 18, 18)
+                .addComponent(Inscrire)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -185,14 +198,14 @@ public class Login extends javax.swing.JFrame {
             .addComponent(LOGO, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
             .addGroup(BackPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(login, javax.swing.GroupLayout.DEFAULT_SIZE, 474, Short.MAX_VALUE))
+                .addComponent(login, javax.swing.GroupLayout.DEFAULT_SIZE, 468, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(BackPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 812, Short.MAX_VALUE)
+            .addComponent(BackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 812, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,13 +229,24 @@ public class Login extends javax.swing.JFrame {
             this.dispose();
             new Accueil().show();
         } else {
-            JOptionPane.showMessageDialog(null, "Mot de passe invalide ou email invalide !");
+            if (Membres.authenticate(email, password)) {
+                JOptionPane.showMessageDialog(null, "Connexion réussie");
+                this.dispose();
+                new Accueil().show();
+            }else{
+                JOptionPane.showMessageDialog(null, "Compte admin ou membre non valide, ou en attente de validation");
+            }
         }
     }//GEN-LAST:event_btnloginActionPerformed
 
     private void passActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_passActionPerformed
+
+    private void InscrireActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InscrireActionPerformed
+        // TODO add your handling code here:
+        new AddMembre().setVisible(true);
+    }//GEN-LAST:event_InscrireActionPerformed
 
     /**
      * @param args the command line arguments
@@ -231,7 +255,7 @@ public class Login extends javax.swing.JFrame {
         FlatDarkLaf.setup();
         Welcome wel = new Welcome();
         wel.setVisible(true);
-        
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Login().setVisible(true);
@@ -241,6 +265,7 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel BackPanel;
+    private javax.swing.JButton Inscrire;
     private javax.swing.JPanel LOGO;
     private javax.swing.JLabel Logo;
     private javax.swing.JButton btnlogin;

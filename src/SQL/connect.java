@@ -14,7 +14,7 @@ public class connect {
     public static synchronized Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
             // Établir une nouvelle connexion si elle n'existe pas ou si elle est fermée
-            connection = DriverManager.getConnection("jdbc:postgresql://192.168.1.20/postgres?characterEncoding=UTF-8", "postgres", "postgres");
+            connection = DriverManager.getConnection("jdbc:postgresql://192.168.36.204/aeroclub?characterEncoding=UTF-8", "postgres", "admin");
         }
         return connection;
     }
