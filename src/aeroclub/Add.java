@@ -1288,7 +1288,7 @@ public class Add extends javax.swing.JFrame {
                     vmt.getText(), vmvt.getText(), sept.getText(), sepvt.getText(),
                     cartft.getText(), attestt.getText(), mdpt.getText(), proft.getText(), datent.getText(),
                     Lieut.getText(), bbmtht.getText(), pplatht.getText(), dateBBmt.getText(), datePPLAmt.getText(),
-                    numBBmt.getText(), numPPLAmt.getText(), true, true);
+                    numBBmt.getText(), numPPLAmt.getText(), false, false);
 
             if (rep) {
                 System.out.println("Ajouts réussi du membre : " + nomt.getText() + " " + prenomt.getText());

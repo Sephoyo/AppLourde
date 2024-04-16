@@ -855,7 +855,7 @@ public class Accueil extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Le membre "+membre[0]+" "+membre[1]+"est désormais actif !", "Information !", JOptionPane.INFORMATION_MESSAGE);
             } else if (!rep) {
                 System.out.println("Problème d'ajouts");
-                JOptionPane.showMessageDialog(null, "Problème de modifiaction pour le membre"+membre[0]+" "+membre[1]+"merci de contactez un administrateur" , "Information !", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Problème de modification pour le membre"+membre[0]+" "+membre[1]+"merci de contactez un administrateur" , "Information !", JOptionPane.ERROR_MESSAGE);
             }
         MembreNoninscrit.removeAllItems();
         String[] MembreNon = mem.getMemsNI();
@@ -879,9 +879,9 @@ public class Accueil extends javax.swing.JFrame {
     }//GEN-LAST:event_MembreValidationActionPerformed
 
     private void decoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_decoActionPerformed
-        // TODO add your handling code here:
         this.dispose();
         new Login().setVisible(true);
+        
     }//GEN-LAST:event_decoActionPerformed
 
     /**
