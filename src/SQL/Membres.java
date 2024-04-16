@@ -282,6 +282,33 @@ public class Membres {
         // Retourner le tableau des membres
         return memTab;
     }
+    //Fonction pour récupérer tout les membres par nom prénom dans un tableau pour afficher dans une combobox
+    public String[] getMemsNI() {
+        List<String> memList = new ArrayList<>();
+        try (Connection conn = connect.getConnection()) {
+            // Création de la requête SQL pour supprimer un membre par son ID
+            String query = "select nom, prenom from membres where membre_inscrit = false";
+
+            try (java.sql.Statement st = conn.createStatement()) {
+                try (ResultSet resultSet = st.executeQuery(query)) {
+                    while (resultSet.next()) {
+                        memList.add(resultSet.getString("nom").trim() + " " + resultSet.getString("prenom").trim());
+                    }
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        // Convertir la liste en tableau de chaînes de caractères
+        String[] memTab = new String[memList.size()];
+        memTab = memList.toArray(memTab);
+
+        // Retourner le tableau des membres
+        return memTab;
+    }
 
     public String getMemIdByNP(String nom, String prenom) {
         String MemInfo = "";
@@ -411,6 +438,34 @@ public class Membres {
         }
     }
     
+    
+    //Fonction update d'un membre qui reprends tout les paramètres pour l'ajouter  
+    public boolean UpMembreInscrit(int id) {
+        System.out.println("Dans la fonction addMembre :");
+        try (Connection conn = connect.getConnection()) {
+            String query = "UPDATE MEMBRES SET MEMBRE_ACTIF=?, MEMBRE_INSCRIT=? "
+                    + "WHERE id=?;";
+            try (PreparedStatement pst = conn.prepareStatement(query)) {
+                pst.setBoolean(1,true);
+                pst.setBoolean(2,true);
+                pst.setInt(3, id);
+
+                int rowsAffected = pst.executeUpdate();
+
+                if (rowsAffected > 0) {
+                    System.out.println("Membre modifier avec succès.");
+                    return true;
+
+                } else {
+                    System.out.println("Échec de la modification du membre.");
+                    return false;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
     public static boolean authenticate(String email, String password) {
         try (Connection conn = connect.getConnection()) {
             boolean result = false;

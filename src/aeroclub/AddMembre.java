@@ -113,6 +113,24 @@ public class AddMembre extends javax.swing.JFrame {
 
         jLabel10.setText("Mot de passe ");
 
+        nom.setText("Baert");
+
+        prenom.setText("Joseph");
+
+        badge.setText("156");
+
+        adresse.setText("1 rue du test");
+
+        cp.setText("59140");
+
+        ville.setText("Dunkerque");
+
+        email.setText("epreuve@e.com");
+
+        tel.setText("0102030405");
+
+        mdp.setText("eleve");
+
         jLabel11.setText("Date naissance");
 
         jLabel12.setText("Profession");
@@ -142,6 +160,32 @@ public class AddMembre extends javax.swing.JFrame {
         jLabel24.setText("PPLA date");
 
         jLabel25.setText("PPLA numéro");
+
+        date_naissance.setText("2000-12-12");
+
+        profession.setText("Etudiant");
+
+        lieu.setText("Dunkerque");
+
+        date_vm.setText("2000-12-12");
+
+        validite_vm.setText("2000-12-12");
+
+        date_sep.setText("2000-12-12");
+
+        validite_sep.setText("2000-12-12");
+
+        cartefede.setText("EAD48");
+
+        dateattestation.setText("2000-12-12");
+
+        bbdate.setText("2000-12-12");
+
+        bbnum.setText("123456");
+
+        ppladate.setText("2000-12-12");
+
+        pplanum.setText("123456");
 
         ajout.setText("Confirmer");
         ajout.addActionListener(new java.awt.event.ActionListener() {
@@ -188,7 +232,7 @@ public class AddMembre extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(mdp, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)

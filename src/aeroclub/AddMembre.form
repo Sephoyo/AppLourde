@@ -62,7 +62,7 @@
                               <Component id="mdp" min="-2" pref="102" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
@@ -363,22 +363,49 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="nom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Baert"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="prenom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Joseph"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="badge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="156"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="adresse">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 rue du test"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="cp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="59140"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="ville">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dunkerque"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="email">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="epreuve@e.com"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="tel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0102030405"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JPasswordField" name="mdp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="eleve"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
@@ -456,34 +483,73 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="date_naissance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="profession">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Etudiant"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="lieu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dunkerque"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="date_vm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="validite_vm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="date_sep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="validite_sep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="cartefede">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EAD48"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="bbtheo">
     </Component>
     <Component class="javax.swing.JTextField" name="dateattestation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="bbdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="bbnum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="123456"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="ppladate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2000-12-12"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="pplatheo">
     </Component>
     <Component class="javax.swing.JTextField" name="pplanum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="123456"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="ajout">
       <Properties>

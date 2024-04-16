@@ -40,6 +40,10 @@ public class Accueil extends javax.swing.JFrame {
         TableMembre.setModel(model);
         setupCustomTableColumnMembres();
         TableMembre.setRowHeight(50);
+        String[] MembreNon = mem.getMemsNI();
+        for (String membre : MembreNon) {
+            MembreNoninscrit.addItem(membre);
+        }
     }
 
     public void setupCustomTableColumnMembres() {
@@ -250,6 +254,8 @@ public class Accueil extends javax.swing.JFrame {
         SeqVol = new javax.swing.JButton();
         membres = new javax.swing.JButton();
         Comptes = new javax.swing.JButton();
+        MembreValidation = new javax.swing.JButton();
+        deco = new javax.swing.JButton();
         ChoiceJtable = new javax.swing.JTabbedPane();
         jPanel6 = new javax.swing.JPanel();
         textmem = new javax.swing.JLabel();
@@ -279,6 +285,11 @@ public class Accueil extends javax.swing.JFrame {
         AddSeq = new javax.swing.JButton();
         SearchSeq = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        MembreNoninscrit = new javax.swing.JComboBox<>();
+        rendreActif = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -318,6 +329,20 @@ public class Accueil extends javax.swing.JFrame {
             }
         });
 
+        MembreValidation.setText("Membre Vali");
+        MembreValidation.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MembreValidationActionPerformed(evt);
+            }
+        });
+
+        deco.setText("Déconnexion");
+        deco.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                decoActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -326,10 +351,15 @@ public class Accueil extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Comptes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(instructeurs, javax.swing.GroupLayout.DEFAULT_SIZE, 128, Short.MAX_VALUE)
+                    .addComponent(instructeurs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(avions, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(SeqVol, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(membres, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(membres, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(MembreValidation)
+                            .addComponent(deco))
+                        .addGap(0, 11, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -345,7 +375,11 @@ public class Accueil extends javax.swing.JFrame {
                 .addComponent(SeqVol)
                 .addGap(18, 18, 18)
                 .addComponent(Comptes)
-                .addContainerGap(263, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(MembreValidation)
+                .addGap(18, 18, 18)
+                .addComponent(deco)
+                .addContainerGap(174, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 630));
@@ -646,6 +680,57 @@ public class Accueil extends javax.swing.JFrame {
 
         ChoiceJtable.addTab("tab4", jPanel9);
 
+        jLabel6.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jLabel6.setText("Liste des membres non-inscrit :");
+
+        MembreNoninscrit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MembreNoninscritActionPerformed(evt);
+            }
+        });
+
+        rendreActif.setText("Rendre actif");
+        rendreActif.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rendreActifActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setText("Membre souhaité :");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel6))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(150, 150, 150)
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(MembreNoninscrit, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(rendreActif)))
+                .addContainerGap(403, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(246, 246, 246)
+                .addComponent(jLabel6)
+                .addGap(40, 40, 40)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(MembreNoninscrit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(rendreActif)
+                    .addComponent(jLabel7))
+                .addContainerGap(347, Short.MAX_VALUE))
+        );
+
+        ChoiceJtable.addTab("tab5", jPanel2);
+
         getContentPane().add(ChoiceJtable, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, -76, 940, 700));
 
         pack();
@@ -755,8 +840,49 @@ public class Accueil extends javax.swing.JFrame {
     private void ComptesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComptesActionPerformed
         // TODO add your handling code here:
         new Compte().setVisible(true);
-        
+
     }//GEN-LAST:event_ComptesActionPerformed
+
+    private void rendreActifActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rendreActifActionPerformed
+        // TODO add your handling code here:
+        Object selectedObject = MembreNoninscrit.getSelectedItem();
+        String selectedString = selectedObject.toString();
+        String[] membre = selectedString.split(" ");
+        String mId = mem.getMemIdByNP(membre[0], membre[1]);
+        boolean rep = mem.UpMembreInscrit(Integer.parseInt(mId));
+        if (rep) {
+                System.out.println("Modification du membre réussi il est désormais actif");
+                JOptionPane.showMessageDialog(null, "Le membre "+membre[0]+" "+membre[1]+"est désormais actif !", "Information !", JOptionPane.INFORMATION_MESSAGE);
+            } else if (!rep) {
+                System.out.println("Problème d'ajouts");
+                JOptionPane.showMessageDialog(null, "Problème de modifiaction pour le membre"+membre[0]+" "+membre[1]+"merci de contactez un administrateur" , "Information !", JOptionPane.ERROR_MESSAGE);
+            }
+        MembreNoninscrit.removeAllItems();
+        String[] MembreNon = mem.getMemsNI();
+        for (String membress : MembreNon) {
+            MembreNoninscrit.addItem(membress);
+        }
+    }//GEN-LAST:event_rendreActifActionPerformed
+
+    private void MembreNoninscritActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MembreNoninscritActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_MembreNoninscritActionPerformed
+
+    private void MembreValidationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MembreValidationActionPerformed
+        // TODO add your handling code here:
+        ChoiceJtable.setSelectedIndex(4);
+        MembreNoninscrit.removeAllItems();
+        String[] MembreNon = mem.getMemsNI();
+        for (String membress : MembreNon) {
+            MembreNoninscrit.addItem(membress);
+        }
+    }//GEN-LAST:event_MembreValidationActionPerformed
+
+    private void decoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_decoActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new Login().setVisible(true);
+    }//GEN-LAST:event_decoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -779,6 +905,8 @@ public class Accueil extends javax.swing.JFrame {
     private javax.swing.JButton AddSeq;
     private javax.swing.JTabbedPane ChoiceJtable;
     private javax.swing.JButton Comptes;
+    private javax.swing.JComboBox<String> MembreNoninscrit;
+    private javax.swing.JButton MembreValidation;
     private javax.swing.JTextField SearchAv;
     private javax.swing.JTextField SearchInstru;
     private javax.swing.JTextField SearchMembre;
@@ -789,13 +917,17 @@ public class Accueil extends javax.swing.JFrame {
     private javax.swing.JTable TableMembre;
     private javax.swing.JTable TableSeqVols;
     private javax.swing.JButton avions;
+    private javax.swing.JButton deco;
     private javax.swing.JButton instructeurs;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
@@ -805,6 +937,7 @@ public class Accueil extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JButton membres;
+    private javax.swing.JButton rendreActif;
     private javax.swing.JLabel textavion;
     private javax.swing.JLabel textinstru;
     private javax.swing.JLabel textmem;
